@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+	user-select: none;
+}
+
+.log-out {
+	margin-top: -70px;
+}
+
+.btn-logout {
+	background-color: #DBE7F2;
+	padding: 8px 25px;
+	border-radius: 5px;
+}
+
+.btn-logout:hover {
+	background-color: #C2CED9;
+	text-decoration: none;
+	transition: .5s;
+}
+
+.title {
+	font-family: 'Roboto', sans-serif;
+	color: #1771E6;
+}
+
+.images {
+	border-radius: 10px;
+	width: 400px;
+}
+
+.destination {
+	font-size: 1.2rem;
+}
+
+.description {
+	font-size: 0.8rem;
+	color: #777777;
+}
+
+.line {
+	border-color: rgb(189, 189, 189);
+}
+
+.countComment {
+	font-weight: bold;
+}
+
+.input-comment {
+	resize: none;
+	outline: none;
+	border: none;
+	background-color: #F0F2F5;
+	border-radius: 4px;
+	font-size: .8rem;
+	height: 80px;
+	padding: 12px 15px;
+}
+
+.input-comment:focus {
+	background-color: #e2ecf5;
+	transition: .5s;
+}
+
+.post-comment {
+	border: none;
+	color: #FFFFFF;
+	background-color: #1771E6;
+	height: 35px;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+.post-comment:focus {
+	outline: none;
+}
+
+.post-comment:hover {
+	background-color: #FFFFFF;
+	border: 1px solid #1771E6;
+	color: #1771E6;
+	transition: .5s;
+}
+
+.comment-name {
+	font-size: .9rem;
+}
+
+.comment-date {
+	margin-left: 15px;
+	font-size: .9rem;
+	font-weight: normal;
+	color: #687A86;
+}
+
+.dates {
+	font-size: .2rem;
+	margin-left: 3px;
+	margin-right: 10px;
+	position: absolute;
+	margin-top: 4px;
+	color: #a8a8a8;
+}
+
+.comment-value {
+	font-size: .9rem;
+	font-weight: normal;
+}
+
+.like,
+.reply {
+	font-size: .7rem;
+	cursor: pointer;
+	font-weight: bold;
+	color: #000000;
+}
+
+.like:hover,
+.reply:hover {
+	color: #000000;
+}
+
+.space {
+	font-weight: lighter;
+	margin-right: 7px;
+}
+
+.between {
+	position: absolute;
+	margin-top: 15px;
+	font-size: .1rem;
+	color: #000000;
+}
+
+.likes {
+	font-size: .7rem;
+}
+
+.form-input {
+	height: 2.2rem;
+	padding: 10px 15px;
+	font-size: 0.8rem;
+	background-color: #F0F2F5;
+	border-radius: 5px;
+}
+
+.form-input:focus {
+	outline: none;
+	background-color: #e2ecf5;
+	transition: .5s;
+	border-bottom: 1px solid black;
+}
+
+.btn-reply {
+	height: 2.2rem;
+	border: none;
+	color: #FFFFFF;
+	background-color: #1771E6;
+	border-radius: 4px;
+	cursor: pointer;
+	transition: .5s;
+}
+
+.btn-reply:hover {
+	background-color: #0058CD;
+}
